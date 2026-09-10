@@ -14,15 +14,15 @@ The forecast covers **2026–2028**, using **2023–2025 historical actuals** as
 
 The objective of the model is to provide management with an integrated financial planning tool that can be used to:
 
-* Forecast revenue, profitability, and cash flow
-* Evaluate financial performance against historical results
-* Model headcount and employment costs
-* Plan capital expenditures
-* Evaluate base, best, and worst-case scenarios
-* Identify key financial risks and forecast drivers
-* Assess changes in profitability and cash generation
-* Support management reporting and financial decision-making
-* Validate model outputs through automated QA checks
+- Forecast revenue, profitability, and cash flow
+- Evaluate financial performance against historical results
+- Model headcount and employment costs
+- Plan capital expenditures
+- Evaluate base, best, and worst-case scenarios
+- Identify key financial risks and forecast drivers
+- Assess changes in profitability and cash generation
+- Support management reporting and financial decision-making
+- Validate model outputs through automated QA checks
 
 ---
 
@@ -66,46 +66,46 @@ The workbook contains 21 integrated worksheets organized around the FP&A plannin
 
 ### Historical Data
 
-* `Historical Actuals`
-* `Historical Trends`
-* `Revenue Analysis`
-* `Expense Analysis`
-* `Monthly Analysis`
+- `Historical Actuals`
+- `Historical Trends`
+- `Revenue Analysis`
+- `Expense Analysis`
+- `Monthly Analysis`
 
 These worksheets organize and analyze the company's historical financial performance from 2023–2025.
 
 ### Forecasting & Assumptions
 
-* `Assumptions`
-* `Forecast Calendar`
-* `Forecast Model`
+- `Assumptions`
+- `Forecast Calendar`
+- `Forecast Model`
 
 These worksheets establish the forecast drivers and calculate the 2026–2028 financial forecast.
 
 ### Supporting Financial Plans
 
-* `Headcount Plan`
-* `CapEx Plan`
-* `Cash Flow Plan`
+- `Headcount Plan`
+- `CapEx Plan`
+- `Cash Flow Plan`
 
 These schedules extend the core forecast into workforce planning, capital investment, and cash flow forecasting.
 
 ### Scenario & Management Analysis
 
-* `Scenario Analysis`
-* `Control Panel`
+- `Scenario Analysis`
+- `Control Panel`
 
 These worksheets provide scenario sensitivity analysis, executive KPIs, management takeaways, variance analysis, and decision-support information.
 
 ### Model Infrastructure & Controls
 
-* `Accounts`
-* `Business Units`
-* `Calendar`
-* `Departments`
-* `Financial Statements`
-* `Regions`
-* `Model QA`
+- `Accounts`
+- `Business Units`
+- `Calendar`
+- `Departments`
+- `Financial Statements`
+- `Regions`
+- `Model QA`
 
 These worksheets provide supporting reference data and model validation controls.
 
@@ -179,12 +179,12 @@ The workbook includes a dedicated `Model QA` worksheet containing validation che
 
 QA checks include:
 
-* Historical financial reconciliation
-* Forecast reconciliation
-* Ending cash validation
-* Capital expenditure validation
-* Employment cost validation
-* Scenario relationship validation
+- Historical financial reconciliation
+- Forecast reconciliation
+- Ending cash validation
+- Capital expenditure validation
+- Employment cost validation
+- Scenario relationship validation
 
 The model's overall QA status is designed to return **PASS** when the validation checks are satisfied.
 
@@ -198,15 +198,15 @@ The `Control Panel` serves as the executive-facing section of the model.
 
 It includes:
 
-* Management Forecast Summary
-* Forecast Driver Analysis
-* Historical-to-Forecast Variance Analysis
-* Scenario Range Analysis
-* Management Review
-* Executive KPI Snapshot
-* Executive Takeaways
-* Final Model Readiness
-* Management Decision Support
+- Management Forecast Summary
+- Forecast Driver Analysis
+- Historical-to-Forecast Variance Analysis
+- Scenario Range Analysis
+- Management Review
+- Executive KPI Snapshot
+- Executive Takeaways
+- Final Model Readiness
+- Management Decision Support
 
 The purpose of the Control Panel is to translate the underlying model outputs into information that can be quickly reviewed by management.
 
@@ -216,7 +216,7 @@ The purpose of the Control Panel is to translate the underlying model outputs in
 
 **Primary tool:**
 
-* Microsoft Excel
+- Microsoft Excel
 
 The project was intentionally developed using standard Excel functionality without relying on paid add-ins, VBA, macros, Power Query, or Power Pivot.
 
@@ -240,15 +240,12 @@ Corporate-FP&A-Budgeting-Forecasting-Model/
 ├── 02_Model/
 │   └── Cascade_FPA_Model.xlsx
 │
-├── 03_Output/
-│
+├── 03_Portfolio/
+│       ├── Resume_Bullets.txt
+|
 ├── 04_Documentation/
 │   ├── Model_Guide.md
 │   └── Assumptions_and_Methodology.md
-│
-└── 05_Portfolio/
-    ├── Resume_Bullets.txt
-    └── Interview_Story.md
 ```
 
 ---
@@ -257,16 +254,16 @@ Corporate-FP&A-Budgeting-Forecasting-Model/
 
 This project was developed as a portfolio demonstration of practical FP&A and financial modeling capabilities, including:
 
-* Financial forecasting
-* Budgeting and planning
-* Variance analysis
-* Scenario modeling
-* Cash flow forecasting
-* Headcount planning
-* Capital expenditure planning
-* Management reporting
-* Financial model QA
-* Decision support
+- Financial forecasting
+- Budgeting and planning
+- Variance analysis
+- Scenario modeling
+- Cash flow forecasting
+- Headcount planning
+- Capital expenditure planning
+- Management reporting
+- Financial model QA
+- Decision support
 
 The project is intended to demonstrate the ability to build an integrated financial model that connects **historical performance, financial assumptions, operational drivers, forecast outputs, and management analysis**.
 
