@@ -241,7 +241,7 @@ Corporate-FP&A-Budgeting-Forecasting-Model/
 │   └── Cascade_FPA_Model.xlsx
 │
 ├── 03_Portfolio/
-│       ├── Resume_Bullets.txt
+│       ├── Executive_Summary.pdf
 |
 ├── 04_Documentation/
 │   ├── Model_Guide.md
